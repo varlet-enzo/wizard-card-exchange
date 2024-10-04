@@ -105,10 +105,19 @@ body{
   } 
   /* Tablet styles */
 @media (min-width: 768px) and (max-width: 1199px) {
-  
+  .lien{
+    z-index: 7;
+  }
 }
 
 /* Mobile styles */
 @media (max-width: 767px) {
 
+  .lien{
+    font-size: x-large;
+    position: absolute;
+    right: 610px;
+    top: 5px;
+    z-index: 7;
+  }
 }
