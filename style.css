@@ -17,6 +17,19 @@ body{
   margin-left: 260px;
   background-color: #ffffff00;
 }
+
+.card-booster {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.booster {
+  margin-top: 100px;
+  margin-left: 260px;
+  background-color: #ffffff00;
+}
 .tete {
     display: flex;
     flex-wrap: wrap;
